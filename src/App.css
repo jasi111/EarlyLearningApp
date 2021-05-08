@@ -1,0 +1,246 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+html,body{
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+}
+
+body{
+  background: url("bg1.jpg") fixed;
+  background-repeat:no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+ 
+   
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+ 
+  .logo{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    margin-top: -30px;
+    margin-left:20px;
+    
+  
+    
+   
+         
+  }
+
+  .h1, h1 {
+    
+    font-size:2rem;
+    color:#ffcb47;    
+    font-family:Gloria Hallelujah;
+    text-align: center;
+    padding-top: -15px;
+    
+   
+}
+
+.frontnav .container{
+  padding-top:40px;
+}
+.frontnav {
+  color:white;
+  font-size:4rem;
+  font-family: 'Snowburst One', cursive;
+  text-shadow: 
+  -1px 0 1px #c6bb9f, 
+  0 1px 1px #c6bb9f, 
+  5px 5px 10px rgba(0, 0, 0, 0.4),
+  -5px -5px 10px rgba(0, 0, 0, 0.4);
+  padding-top:20px;
+ 
+}
+.firstrow{
+  display:flex;
+  flex-direction: row;
+  margin-top:30px;
+}
+.secondrow{
+  display:flex;
+  flex-direction: row;  
+  margin-top: 80px;
+}
+.alpha{
+  margin-left:132px;
+}
+.secondrow .container {
+  
+  margin-top: 200px;
+  height:10%;  
+}
+
+.navContainer{
+    margin-top: 0px;
+   }
+
+.fruit{
+  padding-left:30px;
+}
+#itemAlign{
+  widows: 1000px;
+  width:70%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:0 auto;
+  
+  position: relative;
+  border-radius:10px;
+  border-color:blue;
+ 
+}
+
+.textStyle {
+  text-decoration:none;
+  color:#21618C  ;
+  background-color:white;
+  border-radius:100%;
+  text-align:center;
+  padding:5px;
+  width:120px;
+  height:120px;
+  font-size: 80px;
+  box-shadow: #000 0px 0px 10px;
+  border-style: solid;
+  
+}
+
+.snowman{
+  
+    width: 250px;
+    height: 250px;
+    position: relative;
+   /* padding-right: 80px;*/
+    top: 30px;
+}
+
+.logosize{
+  width:300px;
+  height:300px;  
+  margin-top: -50px;
+ 
+}
+
+
+.numbers {
+  
+  position:relative;    
+}
+
+.fruits {
+  margin-top:-50px;}
+
+.vegetables  {
+    margin-top:-50px;}
+  
+.animals  {
+    margin-top:-50px;}
+
+
+.imgDisplay{
+  border-radius:50%;
+  background-color:white;
+  align-items: center;
+  width:200px;
+  height:200px;
+  top:50px;
+  position: relative;
+ 
+
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+  .alpha {
+    margin-left: inherit;
+}
+
+ 
+.container {
+  display: inline;
+  padding:0px;
+  text-align: center;
+  max-width:100%;
+  margin-left: 0px;
+  
+}
+
+#itemAlign{
+  widows: 1000px;
+  max-width:100%;
+  margin-left:40px;
+  
+ margin:0 auto;
+  line-height: .5;
+  
+  position:relative;
+  
+  }
+  
+  
+  .textStyle {
+  
+    width:90px;
+    height:90px;
+    font-size: 50px;
+   
+    
+  }
+  
+  .snowman{
+  
+    width: 150px;
+    height: 150px;
+   
+}
+
+.logo{
+  
+  
+  margin-left: 2px;
+  margin-bottom: -30px;
+   
+}
+
+.logosize{
+  width:200px;
+  height:200px;
+  margin-bottom: 50px;
+  margin-top:-40px;
+  
+}
+
+.movetop{
+  margin-top:20px
+}
+
+}
+
